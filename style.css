@@ -1,0 +1,65 @@
+legend {
+    font-weight: bold;
+}
+label {
+    display: block;
+}
+fieldset {
+    margin: 20px;
+}
+.submit {
+    margin-left: 20px;
+
+}
+textarea {
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+.email {
+    margin-top: -15px;
+}
+.table1 {
+    width: 1015px;
+    border: 1px solid silver;
+    border-right-color: gray;
+    border-bottom-color: gray;
+    margin: 10px;
+}
+.table1 th, td{
+    padding: 5px;
+    border: gray solid 1px;
+    border-right-color: silver;
+    border-bottom-color: silver;
+}
+.table2 {
+    width: 600px;
+    border: 1px solid silver;
+    border-right-color: gray;
+    border-bottom-color: gray;
+    margin: 10px auto;
+}
+.table2 th, td{
+    padding: 5px;
+    border: gray solid 1px;
+    border-right-color: silver;
+    border-bottom-color: silver;
+}
+.table2 th {
+    text-align: left;
+}
+.textBold {
+    font-weight: bold;
+}
+.table3 th, td {
+    border: 1px solid gray;
+    border-right-color: silver;
+    border-bottom-color: silver;
+}
+.table3 {
+    width: 600px;
+    border-spacing: 0;
+    border: 2px solid silver;
+    border-right-color: gray;
+    border-bottom-color: gray;
+    margin: 10px auto;
+}

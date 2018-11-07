@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New form</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<h1>Расскажите немного о себе...</h1>
+<form action="http://someurl.com" method="post">
+<fieldset>
+    <legend>Коротко о себе</legend>
+    <p><label for="first">Имя: <input type="text" name="firstName" id="first" size="30"></label></p>
+    <p><label for="last">Фамилия: <input type="text" name="lastName" id="last" size="30"></label></p>
+    <p>Пол: <input type="radio" name="sex" value="man" checked="checked">мужской <input type="radio" name="sex" value="woman">женский</p>
+    <p><label for="age">Возраст: <input type="text" name="age" id="age" size="3"> лет</label></p>
+</fieldset>
+    <fieldset>
+        <legend>Подробнее о себе</legend>
+        <label for="youngMan"><input type="radio" name="sex1" value="youngMan" id="youngMan" checked="checked">Молодой человек</label>
+        <label for="youngWoman"><input type="radio" name="sex1" value="youngWoman" id="youngWoman"> Девушка</label>
+        <label for="birthDate"><input type="text" id="birthDate"> Дата рождения</label>
+        <label for="maritalStatus"><input type="text" id="maritalStatus"> Семейное положение</label>
+        <label for="socialStatus"><input type="text" id="socialStatus"> Социальный статус</label>
+        <label for="residence"><input type="text" id="residence"> Местожительство</label>
+        <p><strong>Что вы обычно делаете на выходных:</strong></p>
+    <label for="sleep"><input type="checkbox" name="sleep" id="sleep">Сплю</label>
+    <label for="walking"><input type="checkbox" name="walk" id="walking">Гуляю с друзьями</label>
+    <label for="fishing"><input type="checkbox" name="fishing" id="fishing">Хожу на рыбалку</label>
+    <label for="play"><input type="checkbox" name="play" id="play">Играю в игры</label>
+        <p><strong>Рассказать о формах в книге, посвященной HTML:</strong></p>
+    <select name="bookForms" size="1" title="">
+        <option value="first">site frequensy</option>
+        <option value="second">site frequensy1</option>
+        <option value="third">site frequensy2</option>
+    </select><br>
+        <p><strong>Сколько книг вы прочитали за свою жизнь:</strong></p>
+    <label><input type="radio" name="books"> 0-10</label>
+    <label><input type="radio" name="books"> 11-20</label>
+    <label><input type="radio" name="books"> 21-50</label>
+    <label><input type="radio" name="books"> 50+</label>
+        <p><strong>Ваши комментарии:</strong></p>
+        <textarea cols="60" rows="10" title=""></textarea><br>
+        <select name="position" size="3" title="selectPosition">
+            <option value="one">Первая позиция</option>
+            <option value="two" selected="selected">Вторая позиция</option>
+            <option value="three">Третья позиция</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>И в заключении</legend>
+        <input type="text" placeholder="Это поле было введено до вас" size="30">
+        <p><strong>Email:</strong></p>
+        <div class="email"><input type="email" title="email" size="30"></div>
+        <p><strong>Хотите подписаться на самую модную рассылку спама?</strong></p>
+        <p><em>Выберите категории</em></p>
+        <label for="equipment"><input type="checkbox" name="equipment" id="equipment"> Оборудование</label>
+        <label for="dinner"><input type="checkbox" name="dinner" id="dinner"> Как приготовить обеды</label>
+        <label for="million"><input type="checkbox" name="million" id="million"> Заработай миллион за два дня!</label>
+        <p><strong>На сколько сложная задача:</strong></p>
+        <label for="easy"><input type="radio" name="complexity" id="easy" checked="checked"> Совсем нет</label>
+        <label for="medium"><input type="radio" name="complexity" id="medium"> Так себе</label>
+        <label for="hard"><input type="radio" name="complexity" id="hard"> Еле справились</label>
+   </fieldset>
+    <input class="submit" type="submit" value="Отправить">
+</form>
+</body>
+</html>
